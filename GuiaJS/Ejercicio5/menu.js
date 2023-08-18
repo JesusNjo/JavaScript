@@ -11,10 +11,10 @@ const menu = () =>{
 
         alert("Indique la operacion que desea realizar");
         let op = prompt("S: Suma\nR:Resta\nM:Multiplicación\nD:Division").toUpperCase();
-        let n1 = parseInt(prompt("Indique el primer digito"));
-        let n2 = parseInt(prompt("Indique el segundo digito"));
-       
-        let result = 0;
+      
+            alert("Operacion invalida");
+            break;
+        
         switch(op){
             case "S":alert(n1+n2);break;
             case "R":alert(n1-n2);break;
